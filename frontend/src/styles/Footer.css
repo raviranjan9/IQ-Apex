@@ -1,0 +1,70 @@
+.footer{
+    background-color: #1281C5;
+    padding: 2rem 5rem;
+}
+.footer ._row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.footer ._row .col{
+    min-width: 30vw;
+    margin-right: 2rem;
+}
+.footer .add1 h2, .footer .add2 h2{
+    font-size:2rem;
+    color:white;
+}
+.footer .add1 p, .footer .add2 p{
+    font-size:1.2rem;
+    color:white;
+}
+
+.footer .contact-container h2{
+    font-size: 3rem;
+    color: white;
+    margin: 1rem 0rem;
+}
+
+.footer .contact-container .phone h3{
+    font-size: 2rem;
+    color: white;
+}
+.footer .contact-container .phone p{
+    font-size: 1.2rem;
+    color: white;
+}
+.footer .contact-container .mobile h3{
+    font-size: 2rem;
+    color: white;
+}
+.footer .contact-container .mobile p{
+    font-size: 1.2rem;
+    color: white;
+}
+.footer .contact-container .email h3{
+    font-size: 2rem;
+    color: white;
+}
+.footer .contact-container .email p{
+    font-size: 1.2rem;
+    color: white;
+}
+.footer .location div iframe{
+    width: 90%;
+}
+.footer .location h2{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+@media only screen and (max-width: 768px){
+    .footer ._row{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer ._row .col{
+        min-width: 30vw;
+        margin-top: 2rem;
+    }
+}

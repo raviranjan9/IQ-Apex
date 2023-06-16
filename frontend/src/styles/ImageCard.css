@@ -1,0 +1,15 @@
+.image-card{
+    margin: 0rem .5rem;
+    margin-bottom: 5rem;
+}
+.image-card img{
+    width: 22vw;
+    height: 40vh;
+}
+@media only screen and (max-width: 768px){
+    .image-card img{
+        width: 100vw;
+        height: 30vh;
+    }
+}
+

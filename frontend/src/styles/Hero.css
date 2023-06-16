@@ -1,0 +1,23 @@
+.hero{
+    margin-top: -1rem;
+    width: 100vw;
+    height: 100vh;
+}
+.hero img{
+    width: 100vw;
+    height: 95vh;
+    overflow:hidden;
+}
+
+.hero button{
+    border:none;
+    border-radius: 5rem;
+    background-color: rgb(0,76,173);
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+.hero button:hover{
+    background-color: transparent;
+}

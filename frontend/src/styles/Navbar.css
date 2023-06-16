@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  margin-top: -1rem;
+}
+
+.navbar-top-container {
+  width: 100vw;
+  height: 3rem;
+  background-color: rgb(3, 39, 213);
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 0 0.5rem 0;
+}
+
+.navbar-top-container p {
+  display: inline;
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.address1,
+.address2,
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-center-container {
+  width: 100vw;
+  /* height: 10rem; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 0rem;
+}
+.navbar-center-container .logo {
+  display: flex;
+  align-items: center;
+}
+.navbar-center-container .logo {
+  /* margin-left: 2rem; */
+  display: flex;
+}
+.navbar-center-container .text {
+  font-size: 1.5rem;
+}
+
+.navbar-center-container .appointment-btn .btn {
+  border: none;
+  border-radius: 5rem;
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgb(254, 118, 3);
+  padding: 0.8rem 3rem;
+}
+.navbar-center-container .appointment-btn .btn:hover {
+  background-color: black;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.8);
+  transition-delay: 0.3s;
+}
+.navbar-bottom-container {
+  width: 100vw;
+  color: white;
+  background-color: #1257ba;
+}
+@media only screen and (max-width: 995px) {
+  .navbar-top-container,
+  .navbar-center-container {
+    display: none;
+  }
+  .navbar-bottom-container .logo {
+    display: block;
+  }
+  .navbar-bottom-container .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+}
+@media only screen and (min-width: 995px) {
+  .navbar-bottom-container .logo {
+    display: none;
+  }
+}
