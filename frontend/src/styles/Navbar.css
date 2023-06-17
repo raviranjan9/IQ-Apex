@@ -67,7 +67,7 @@
 .navbar-bottom-container {
   width: 100vw;
   color: white;
-  background-color: #1257ba;
+  background-color: rgb(3, 39, 213);
 }
 @media only screen and (max-width: 995px) {
   .navbar-top-container,
@@ -75,14 +75,10 @@
     display: none;
   }
   .navbar-bottom-container .logo {
-    display: block;
-  }
-  .navbar-bottom-container .nav {
+    /* display: block; */
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    color: white;
   }
 }
 @media only screen and (min-width: 995px) {

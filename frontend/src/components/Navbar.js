@@ -98,7 +98,7 @@ const _Navbar = () => {
           style={{ backgroundColor: "#0327D5" }}
         >
           <Container>
-            <Navbar.Toggle />
+            <Navbar.Toggle style={{ margin: "0 auto", fontSize: "2rem", color: "white" }}/>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav
                 className="mx-auto"

@@ -4,7 +4,10 @@ const YtCard = (props) =>{
     return(
         <>
             <div className="container">
-                {props.link}
+                <div className='item'>
+                  {props.link}
+                </div>
+                
             </div>
         </>
     )

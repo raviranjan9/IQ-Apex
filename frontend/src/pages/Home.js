@@ -103,7 +103,7 @@ const Home = () => {
         </div>
         <div className="right">
           <iframe
-            width="560"
+            width="500"
             height="250"
             src="https://www.youtube.com/embed/FsBFtI9Lm8Q"
             title="YouTube video player"
@@ -125,7 +125,6 @@ const Home = () => {
               src={
                 "https://wingsbd.com/wp-content/uploads/2023/06/Study-in-Australia-from-Bangladesh-2-1-768x513.webp"
               }
-              width="300px"
               alt=""
             />
             <div className="content">
@@ -138,7 +137,6 @@ const Home = () => {
               src={
                 "https://wingsbd.com/wp-content/uploads/2023/06/Study-in-Australia-from-Bangladesh-2-1-768x513.webp"
               }
-              width="300px"
               alt=""
             />
             <div className="content">
@@ -151,7 +149,6 @@ const Home = () => {
               src={
                 "https://wingsbd.com/wp-content/uploads/2023/06/Study-in-Australia-from-Bangladesh-2-1-768x513.webp"
               }
-              width="300px"
               alt=""
             />
             <div className="content">
@@ -164,7 +161,6 @@ const Home = () => {
               src={
                 "https://wingsbd.com/wp-content/uploads/2023/06/Study-in-Australia-from-Bangladesh-2-1-768x513.webp"
               }
-              width="300px"
               alt=""
             />
             <div className="content">
@@ -177,7 +173,6 @@ const Home = () => {
               src={
                 "https://wingsbd.com/wp-content/uploads/2023/06/Study-in-Australia-from-Bangladesh-2-1-768x513.webp"
               }
-              width="300px"
               alt=""
             />
             <div className="content">
@@ -190,7 +185,6 @@ const Home = () => {
               src={
                 "https://wingsbd.com/wp-content/uploads/2023/06/Study-in-Australia-from-Bangladesh-2-1-768x513.webp"
               }
-              width="300px"
               alt=""
             />
             <div className="content">
